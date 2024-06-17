@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1661e722d5f7a474caeabc7eff174fa0, type: 3}
+  m_Name: SoDataSampah
+  m_EditorClassIdentifier: 
+  JenisSampah:
+  - name: Organik
+    imageList:
+    - {fileID: 21300000, guid: 3459e599e8b5a104f8f4271b0be24b6c, type: 3}
+    - {fileID: 21300000, guid: 29c5c23002bba984c8a4c2afedc2358a, type: 3}
+    - {fileID: 21300000, guid: 64281321d113a4b40a3886a4e8b88442, type: 3}
+    - {fileID: 21300000, guid: 3bd2f09a861b680419b99ac0b08375df, type: 3}
+    - {fileID: 21300000, guid: 72705c2397f896c4a93b10dbae222109, type: 3}
+    - {fileID: 21300000, guid: e8f6a7605dbc78d4582dddb2d29f2a7b, type: 3}
+    - {fileID: 21300000, guid: d151707967ebd774a8c7713c94349cb1, type: 3}
+    - {fileID: 21300000, guid: 11c6727f78cb39c42a068f95f3ce3985, type: 3}
+  - name: NonOrganik
+    imageList:
+    - {fileID: 21300000, guid: c7e4c80d45c1ff644a1b7bf4c5da77d9, type: 3}
+    - {fileID: 21300000, guid: 9f4507f66ac5e404e97514b670e3a217, type: 3}
+    - {fileID: 21300000, guid: 0e2eb58ce6fab7a4b9a0acbf1e9b5e77, type: 3}
+    - {fileID: 21300000, guid: 0944f17388ac00c40819b7b8a8bd4308, type: 3}
+    - {fileID: 21300000, guid: 6cbadee4009392a42a311884cfd6694c, type: 3}
+    - {fileID: 21300000, guid: 0f19f385531ff3142a9726a698d3a3e2, type: 3}
+    - {fileID: 21300000, guid: 15c796eeb1648b9429db64f614bf3944, type: 3}
+    - {fileID: 21300000, guid: cab9c488f67c7a946a3511d3ea0b7b7b, type: 3}
+    - {fileID: 21300000, guid: 8b783edcddd080d4c8b4af211b46defd, type: 3}
+    - {fileID: 21300000, guid: 348036597e1d00f42ac57fcb4f155445, type: 3}
+    - {fileID: 21300000, guid: 0dc849d13e4a9d44d90c054dc21d592a, type: 3}
+    - {fileID: 21300000, guid: 812e4528ac6c90f4d95a3bce4808f16e, type: 3}
+    - {fileID: 21300000, guid: 1c03ce8d109ca6643ac95642de12d689, type: 3}
+    - {fileID: 21300000, guid: 37f77b9c158cdec469f4c668ebae2319, type: 3}
+    - {fileID: 21300000, guid: b448a727b9c6ab3478922dc5dcb13c8d, type: 3}
