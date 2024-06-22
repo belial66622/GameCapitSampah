@@ -20,6 +20,8 @@ public class Controller : MonoBehaviour
     [SerializeField]
     TextMeshProUGUI Soal;
 
+    [SerializeField]
+    TextMeshProUGUI score;
 
     int SoalBenar = 0;
 
@@ -89,6 +91,7 @@ public class Controller : MonoBehaviour
     IEnumerator next(bool condition)
     {
         SoalBenar += condition ? 1 : 0;
+        score.SetText($"Score : {SoalBenar}");
         soalke++;
         delay = true;
         imagebenarsalah.gameObject.SetActive(true);

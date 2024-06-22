@@ -26,6 +26,10 @@ public class Bucket : MonoBehaviour
 
     public bool startCounting = false;
 
+    [SerializeField] GameObject menang;
+
+    [SerializeField] GameObject kalah;
+
     private void Start()
     {
         minimalproses = Mathf.FloorToInt( GameManager.Instance.maxscore * 0.7f);
@@ -109,10 +113,27 @@ public class Bucket : MonoBehaviour
         if (proses >= minimalproses)
         {
             instruction.SetText($"Pupuk Berhasil setelah ditunggu selama {proses} hari");
+            StartCoroutine(GameOver(true));
         }
         else
         {
             instruction.SetText($"Pupuk Belum Berhasil dibuat setelah ditunggu selama {proses} hari. Coba pupuk ditunggu selama {minimalproses} hari");
+            StartCoroutine(GameOver(false));
+        }
+    }
+
+
+    IEnumerator GameOver(bool condition)
+    {
+        if (condition)
+        {
+            yield return new WaitForSeconds(1f);
+            menang.SetActive(true);
+        }
+        else
+        {
+            yield return new WaitForSeconds(1f);
+            kalah.SetActive(true);
         }
     }
 }
